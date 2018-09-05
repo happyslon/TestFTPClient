@@ -32,31 +32,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             try {
-//                FTPClient mFtpClient = new FTPClient();
-//                mFtpClient.setConnectTimeout(10 * 1000);
-//                mFtpClient.connect(InetAddress.getByName(ip));
-//                status = mFtpClient.login(userName, pass);
-//                Log.e("isFTPConnected", String.valueOf(status));
-//
-//                FTPClient f = new FTPClient();
-//                f.connect(server);
-//                f.login(username, password);
-//                easyFTP ftp = new easyFTP();
-//                ftp.connect("188.247.50.242","","");
-//                boolean status=false;
-//                status=ftp.setWorkingDirectory("exchange_terminal/Holzunova15/"); // if User say provided any Destination then Set it , otherwise
-//                // Upload will be stored on Default /root level on server
-//                //InputStream is=getResources().openRawResource(drawable.easyftptest);//??
 
-//                easyFTP ftp = new easyFTP();
-//
-//                ftp.connect("188.247.50.242","","");
-//                String path = getFilesDir() + "/";
-//                ftp.downloadFile( "exchange_terminal/Holzunova15/1CtoShop.xml" , path+"1CtoShop.xml" );
-
-
-
-                //ftp.uploadFile(path+"1CtiShop1.xml");
                 publishProgress("Upload Successful");
 
 
