@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             try {
-                if(connectingwithFTP("188.247.50.242","root","zhbr159753")) {
+                if(connectingwithFTP("","","")) {
                     publishProgress("Connected");
                 }
                 File file = new File(getFilesDir() + "/"+"1CtoShop.xml");
